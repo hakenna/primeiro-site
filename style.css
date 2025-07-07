@@ -1,35 +1,46 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #fefefe;
-  color: #333;
-  text-align: center;
-  padding: 20px;
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Minha Página</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
-.galeria {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 20px;
-}
+  <h1>Rafaela Cristiane Gomes da Silva</h1>
 
-.galeria img {
-  width: 200px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
+  <p>
+    Olá! Meu nome é Rafaela, tenho 28 anos, moro em Pimenta Bueno - RO. Sou formada em Educação Física, apaixonada por tecnologia e estou estudando desenvolvimento de software.
+  </p>
 
-button {
-  margin-top: 30px;
-  padding: 10px 20px;
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-}
+  <button id="mensagemBtn">Clique para ver uma mensagem!</button>
+  <div id="mensagem"></div>
 
-button:hover {
-  background-color: #45a049;
-}
+  <ul>
+    <li>Ler livros</li>
+    <li>Praticar yoga</li>
+    <li>Viajar</li>
+  </ul>
+
+  <img src="imagens/yoga.jpg" alt="Pessoa praticando yoga" />
+
+  <table>
+    <tr>
+      <td>Japão</td>
+      <td><img src="imagens/japao.jpg" alt="Japão" /></td>
+    </tr>
+    <tr>
+      <td>Itália</td>
+      <td><img src="imagens/italia.jpg" alt="Itália" /></td>
+    </tr>
+    <tr>
+      <td>Canadá</td>
+      <td><img src="imagens/canada.jpg" alt="Canadá" /></td>
+    </tr>
+  </table>
+
+  <a href="https://www.tecmundo.com.br" target="_blank">Acesse meu site favorito de tecnologia</a>
+
+  <script src="script.js"></script>
+</body>
+</html>

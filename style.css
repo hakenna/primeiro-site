@@ -1,46 +1,56 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <title>Minha Página</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
+body {
+  background-color: #eef6f9;
+  font-family: Arial, sans-serif;
+  margin: 30px;
+}
 
-  <h1>Rafaela Cristiane Gomes da Silva</h1>
+h1 {
+  color: #2c3e50;
+  text-align: center;
+}
 
-  <p>
-    Olá! Meu nome é Rafaela, tenho 28 anos, moro em Pimenta Bueno - RO. Sou formada em Educação Física, apaixonada por tecnologia e estou estudando desenvolvimento de software.
-  </p>
+p {
+  font-size: 18px;
+  text-align: justify;
+}
 
-  <button id="mensagemBtn">Clique para ver uma mensagem!</button>
-  <div id="mensagem"></div>
+ul li {
+  margin-bottom: 10px;
+}
 
-  <ul>
-    <li>Ler livros</li>
-    <li>Praticar yoga</li>
-    <li>Viajar</li>
-  </ul>
+img {
+  width: 300px;
+  border-radius: 15px;
+  display: block;
+  margin: 20px auto;
+}
 
-  <img src="imagens/yoga.jpg" alt="Pessoa praticando yoga" />
+table {
+  margin: 30px auto;
+  border-collapse: collapse;
+  width: 70%;
+}
 
-  <table>
-    <tr>
-      <td>Japão</td>
-      <td><img src="imagens/japao.jpg" alt="Japão" /></td>
-    </tr>
-    <tr>
-      <td>Itália</td>
-      <td><img src="imagens/italia.jpg" alt="Itália" /></td>
-    </tr>
-    <tr>
-      <td>Canadá</td>
-      <td><img src="imagens/canada.jpg" alt="Canadá" /></td>
-    </tr>
-  </table>
+td {
+  border: 1px solid #aaa;
+  padding: 10px;
+  text-align: center;
+}
 
-  <a href="https://www.tecmundo.com.br" target="_blank">Acesse meu site favorito de tecnologia</a>
+table img {
+  width: 120px;
+  border-radius: 10px;
+}
 
-  <script src="script.js"></script>
-</body>
-</html>
+a {
+  display: block;
+  text-align: center;
+  color: #0077cc;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+a:hover {
+  color: #e74c3c;
+}
